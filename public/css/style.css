@@ -17,7 +17,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 20px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,7 @@ header {
 }
 
 header .logo {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
@@ -46,7 +46,7 @@ header ul li {
 header ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     position: relative;
     transition: all 0.3s ease-in-out;
@@ -73,7 +73,7 @@ section {
     position: relative;
     width: 100%;
     height: 100vh;
-    padding: 100px;
+    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +112,7 @@ section img#gunung {
     position: absolute;
     color: white;
     white-space: nowrap;
-    font-size: 7.5vw;
+    font-size: 5vw;
     z-index: 10;
     right: -300px;
 }
@@ -120,11 +120,11 @@ section img#gunung {
 #btn {
     text-decoration: none;
     display: inline-block;
-    padding: 8px 30px;
+    padding: 6px 20px;
     border-radius: 40px;
     background-color: white;
     color: #2b1055;
-    font-size: 1.5em;
+    font-size: 0.9em;
     z-index: 12;
     transform: translateY(100px);
 }
@@ -132,18 +132,108 @@ section img#gunung {
 .dua {
     position: relative;
     background: #24062c;
-    padding: 100px;
+    padding: 50px;
     scroll-margin-top: 100px;
+    display: flex;
 }
 
 .dua h2 {
-    font-size: 3.5em;
+    font-size: 0.9em;
     margin-bottom: 10px;
     color: white;
 }
 
+.isi-dua {
+    width: fit-content;
+    margin-right: 20px;
+}
+
 .dua p {
     color: white;
+    font-size: smaller;
+}
+
+#teamwork {
+    position: relative;
+    display: flex;
+    margin-top: -100px;
+    width: 400px;
+    height: 400px;
+    transition: all 0.3s ease-in-out;
+}
+
+#teamwork:hover {
+    cursor: pointer;
+    transform: rotateX(-10deg) rotateY(10deg) perspective(1000px);
+    filter: drop-shadow(0 0 5px #fff);
+}
+
+.services {
+    position: relative;
+    background: #24062c;
+    padding: 50px;
+    scroll-margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.services p {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services ul li {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.contact {
+    position: relative;
+    background: #24062c;
+    padding: 50px;
+    scroll-margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.contact p {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 10px;
 }
 
 ::-webkit-scrollbar {
@@ -162,5 +252,144 @@ section img#gunung {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #1a0a33;
-    
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    header {
+        padding: 20px 40px;
+    }
+
+    header .logo {
+        font-size: 18px;
+    }
+
+    header ul li a {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 40px;
+    }
+
+    #text {
+        font-size: 6vw;
+    }
+
+    #btn {
+        padding: 6px 25px;
+        font-size: 0.9em;
+    }
+
+    .dua {
+        padding: 40px;
+    }
+
+    .dua h2 {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 30px;
+    }
+
+    header .logo {
+        font-size: 16px;
+    }
+
+    header ul {
+        flex-direction: column;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    header ul li a {
+        font-size: 12px;
+    }
+
+    section {
+        padding: 30px;
+    }
+
+    #text {
+        font-size: 7vw;
+    }
+
+    #btn {
+        padding: 5px 20px;
+        font-size: 0.8em;
+    }
+
+    .dua {
+        padding: 30px;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .dua h2 {
+        font-size: 0.7em;
+    }
+
+    .isi-dua {
+        margin-right: 0;
+    }
+
+    #teamwork {
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+        align-self: center; 
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    header .logo {
+        font-size: 14px;
+    }
+
+    header ul li a {
+        font-size: 10px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    #text {
+        font-size: 8vw;
+    }
+
+    #btn {
+        padding: 4px 15px;
+        font-size: 0.7em;
+    }
+
+    .dua {
+        padding: 20px;
+        align-items: center; /* Center content */
+    }
+
+    .dua h2 {
+        font-size: 0.6em;
+    }
+
+    .isi-dua {
+        margin-right: 0;
+    }
+
+    #teamwork {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px; /* Add margin to separate from .isi-dua */
+        align-self: center; /* Center the teamwork image */
+    }
 }

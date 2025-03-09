@@ -11,15 +11,15 @@
 
     <body>
         <header>
-            <a href="#" class="logo">Perdafos</a>
+            <a href="#home" class="logo">Perdafos</a>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#dua">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </header>
-        <section>
+        <section id="#home">
             <img src="{{ asset('img/stars.png') }}" id="stars">
             <img src="{{ asset('img/bulan.png') }}" id="bulan">
             <img src="{{ asset('img/gunung-belakang.png') }}" id="gunung-belakang">
@@ -29,24 +29,20 @@
             <img src="{{ asset('img/awan.png') }}" id="awan">
         </section>
         <div id="dua" class="dua">
-            <h2>Selamat Datang Di Perdafos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, est quisquam explicabo repellat
-                reprehenderit veritatis officia! Pariatur consequuntur delectus ex iure commodi beatae dolores tempore,
-                explicabo mollitia nulla atque aliquam eius accusantium cum iste consectetur expedita quia nesciunt rem
-                illum labore. Ullam libero, vitae similique ad aliquid pariatur possimus! Fugiat dolorem voluptatibus
-                exercitationem quo. Necessitatibus nobis quo minus quae inventore laudantium placeat reprehenderit id
-                labore repellat pariatur minima libero, modi veritatis at accusamus unde aliquid eaque dolore quasi!
-                Accusantium consequatur saepe, quo sapiente pariatur inventore consequuntur animi similique esse
-                suscipit ratione explicabo officia molestias repudiandae amet facere culpa fugiat reprehenderit?</p>
-            <br><br>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam impedit repellendus similique. Nisi
-                nobis quis molestias nemo neque perspiciatis quidem exercitationem ducimus. Iste voluptas minima magnam
-                eaque rem eum quaerat eligendi excepturi autem quos dolor, ratione ullam voluptatum sunt deserunt nobis
-                corporis inventore iure? Facilis eligendi beatae non possimus quam hic eaque deleniti enim est molestiae
-                debitis optio ea, ad mollitia, dolor praesentium dolorum. Quisquam adipisci, ab exercitationem est
-                maiores unde culpa, debitis dolor tenetur facere ipsum aliquam deserunt nesciunt, voluptatum praesentium
-                magnam porro reiciendis minus! Aspernatur, dolore quia. Assumenda dolores possimus harum quam, inventore
-                maxime ex facere et est!</p>
+            <div class="isi-dua">
+                <h2>About Me</h2>
+                <p>Perkenalkan nama saya Dafa Ghaitsa Yogatama. Saya mendalami bahasa pemrograman javascript, saya
+                    sangat tertarik dengan UI/UX makanya saya belajar javascript. Framework CSS yang saya suka yaitu
+                    tailwind, sebatas lebih cepat aja sih. Lalu untuk framework PHP saya mendalami laravel.</p>
+                <br><br>
+                <p>
+                    Saya sudah berpengalaman bekerja dalam tim, karena saya di SMK pernah mengikuti project yang di buat
+                    langsung oleh sekolah. Saya biasanya menggunakan git hub untuk bekerja secara kelompok, sehingga
+                    mudah dan cepat untuk mengerjakan sebuah web. Saat ini saya ingin memahami cara github bekerja,
+                    karena saya masih belum paham betul.
+                </p>
+            </div>
+            <img src="{{ asset('img/teamwork.png') }}" id="teamwork">
         </div>
         <script src="{{ asset('js/script.js') }}"></script>
     </body>
