@@ -7,19 +7,19 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🔭 I’m currently working on [exirostudio](https://pkl.exirostudio.my.id/)
+-   🔭 I’m currently working on [exirostudio](https://pkl.exirostudio.my.id/)
 
-- 🌱 I’m currently learning **Javascript, Laravel, Git.**
+-   🌱 I’m currently learning **Javascript, Laravel, Git.**
 
-- 👯 I’m looking to collaborate on [School Project](https://pkl.exirostudio.my.id/)
+-   👯 I’m looking to collaborate on [School Project](https://pkl.exirostudio.my.id/)
 
-- 👨‍💻 All of my projects are available at [Incoming](Incoming)
+-   👨‍💻 All of my projects are available at [Incoming](Incoming)
 
-- 💬 Ask me about **HTML, CSS, Js, Laravel.**
+-   💬 Ask me about **HTML, CSS, Js, Laravel.**
 
-- 📫 How to reach me **https://instagram.com/dafcantdrawing**
+-   📫 How to reach me **https://instagram.com/dafcantdrawing**
 
-- ⚡ Fun fact **Ex Basketball Player, Ex Footballer, Ex Karate.**
+-   ⚡ Fun fact **Ex Basketball Player, Ex Footballer, Ex Karate.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
