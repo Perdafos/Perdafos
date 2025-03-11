@@ -6,18 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <title>Perdafos</title>
     </head>
 
     <body>
         <header>
             <a href="#home" class="logo">Perdafos</a>
-            <ul>
+            <button class="burger-menu" id="burger-menu">&#9776;</button>
+            <ul id="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#dua">About</a></li>
                 <li><a href="#service">Services</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+
         </header>
         <section id="#home">
             <img src="{{ asset('img/stars.png') }}" id="stars">
@@ -43,6 +46,40 @@
                 </p>
             </div>
             <img src="{{ asset('img/teamwork.png') }}" id="teamwork">
+        </div>
+        <div class="tiga">
+            <div class="isi-tiga">
+                <div class="header-tiga">
+                    <div class="content01">
+                        <h2>Check Out</h2>
+                        <h2>My Project</h2><br>
+                        <p>Here is my recent works, every peroject will be</p>
+                        <p>displayed your with case study</p>
+                    </div>
+                    <div class="see-more">
+                        <button>See More</button>
+                    </div>
+                </div>
+                <div class="content-garage">
+                    <div class="card-event">
+                        <div class="small-box">
+                            <a href=""><i class="fa-solid fa-arrow-right"></i></a>  
+                        </div>
+                    </div>
+                    <div class="card-event">
+                        <div class="small-box">
+                            <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="card-event">
+                        <div class="small-box">
+                            <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
         <script src="{{ asset('js/script.js') }}"></script>
     </body>

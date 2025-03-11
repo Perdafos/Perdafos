@@ -69,6 +69,15 @@ header ul li a:hover::before {
     filter: drop-shadow(0 0 5px #fff);
 }
 
+header .burger-menu {
+    display: none;
+    font-size: 24px;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
 section {
     position: relative;
     width: 100%;
@@ -328,7 +337,7 @@ section img#gunung {
     .dua {
         padding: 30px;
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
     }
 
     .dua h2 {
@@ -343,53 +352,107 @@ section img#gunung {
         width: 300px;
         height: 300px;
         margin-top: 20px;
-        align-self: center; 
+         align-self: center;
     }
-}
 
-@media (max-width: 480px) {
-    header {
-        padding: 10px 20px;
+    header .burger-menu {
+        display: block;
     }
+
+    header ul {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 150px;
+        height: 100%;
+        background: #2b1055;
+        flex-direction: column;
+        transition: left 0.3s ease-in-out;
+    }
+
+    header ul.active {
+        left: 0;
+    }
+
+    header ul li {
+        margin: 20px 0;
+    }
+ }
+
+ @media (max-width: 480px) {
+    header {
+         padding: 10px 20px;
+     }
 
     header .logo {
-        font-size: 14px;
-    }
+          font-size: 14px;
+     }
 
-    header ul li a {
-        font-size: 10px;
-    }
-
-    section {
-        padding: 20px;
-    }
-
-    #text {
-        font-size: 8vw;
-    }
-
-    #btn {
-        padding: 4px 15px;
-        font-size: 0.7em;
-    }
-
-    .dua {
-        padding: 20px;
-        align-items: center; /* Center content */
-    }
-
-    .dua h2 {
-        font-size: 0.6em;
-    }
-
-    .isi-dua {
-        margin-right: 0;
-    }
-
-    #teamwork {
-        width: 200px;
-        height: 200px;
-        margin-top: 20px; /* Add margin to separate from .isi-dua */
-        align-self: center; /* Center the teamwork image */
+     header ul li a {
+         font-size: 10px;
     }
 }
+
+.tiga {
+    height: 100vh;
+    padding-left: 50px;
+    padding-top: 50px;
+    background: #24062c;
+}
+
+.header-tiga {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 50px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.see-more {
+    position: relative;
+    margin-top: 90px;
+}
+
+.see-more button {
+    border: none;
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+
+.content-garage {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.card-event {
+    background-color: #3c0b49;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.small-box {
+    position: relative;
+    left: 0;
+    background-color: #AEEA94;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-box:hover {
+    cursor: pointer;
+}
+
+    .small-box i {
+        font-size: 30px;
+        transform: rotate(-35deg);
+    }
