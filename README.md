@@ -7,11 +7,13 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
--   🔭 I’m currently working on [exirostudio](https://pkl.exirostudio.my.id/)
+-   🔭 I’m currently working on [senvada](https://pkl.senvada.id/)
+[bintaro living](https://bintaroliving.com) 
+
 
 -   🌱 I’m currently learning **Javascript, Laravel, Git.**
 
--   👯 I’m looking to collaborate on [School Project](https://pkl.exirostudio.my.id/)
+-   👯 I’m looking to collaborate on [School Project](https://pkl.senvada.id/)
 
 -   👨‍💻 All of my projects are available at [Incoming](Incoming)
 
