@@ -49,6 +49,11 @@
   <img src="https://raw.githubusercontent.com/Perdafos/Perdafos/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%" />
 </p>
 
+### GitHub Overview
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Perdafos/Perdafos/main/sparkling-grid.svg" alt="GitHub Contribution Sparkle" width="100%" />
+</p>
 ---
 
 ### Connect with Me
