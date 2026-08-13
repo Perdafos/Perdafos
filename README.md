@@ -45,9 +45,11 @@
 
 ### GitHub Overview
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Perdafos&theme=dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=000000&title_color=ffffff&text_color=cccccc&icon_color=ffffff)](https://github.com/Perdafos)
+### GitHub Overview
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Perdafos&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact&bg_color=000000&title_color=ffffff&text_color=cccccc)](https://github.com/Perdafos)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Perdafos/Perdafos/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%" />
+</p>
 
 ---
 
