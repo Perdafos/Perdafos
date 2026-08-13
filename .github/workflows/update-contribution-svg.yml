@@ -1,0 +1,34 @@
+name: Update Contribution Scanner SVG
+
+on:
+  schedule:
+    # Setiap hari jam 00:00 UTC (~07:00 WIB). Ubah sesuai selera.
+    - cron: '0 0 * * *'
+  workflow_dispatch: {}  # supaya bisa di-trigger manual lewat tombol "Run workflow"
+
+permissions:
+  contents: write
+
+jobs:
+  update-svg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate SVG dari data kontribusi asli
+        run: python .github/scripts/generate_contribution_svg.py
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+          OUTPUT_PATH: sparkling-grid.svg
+
+      - name: Commit & push kalau ada perubahan
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update contribution scanner svg"
+          file_pattern: sparkling-grid.svg
