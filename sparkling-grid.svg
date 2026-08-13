@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="auto" viewBox="0 0 820 170" style="background: #000000; border-radius: 8px;">
+  <style>
+    /* Animasi garis scanner menyapu dari kiri ke kanan */
+    @keyframes scanLine {
+      0% { transform: translateX(0px); opacity: 0; }
+      10% { opacity: 1; }
+      90% { opacity: 1; }
+      100% { transform: translateX(820px); opacity: 0; }
+    }
+
+    /* Animasi menyingkap grid kontribusi hijau dari kiri ke kanan */
+    @keyframes revealGrid {
+      0% { clip-path: inset(0 100% 0 0); }
+      100% { clip-path: inset(0 0 0 0); }
+    }
+
+    /* Animasi gemerlap bintang/partikel */
+    @keyframes sparkle {
+      0%, 100% { opacity: 0; transform: scale(0.3); }
+      50% { opacity: 1; transform: scale(1.4); }
+    }
+
+    .grid-reveal {
+      animation: revealGrid 4s ease-in-out infinite;
+    }
+
+    .scanner {
+      animation: scanLine 4s ease-in-out infinite;
+    }
+
+    .star {
+      fill: #ffffff;
+      opacity: 0;
+      animation: sparkle 1.5s infinite ease-in-out;
+    }
+
+    /* Timing variasi partikel bintang */
+    .s1 { animation-delay: 0.3s; }
+    .s2 { animation-delay: 0.8s; }
+    .s3 { animation-delay: 1.4s; }
+    .s4 { animation-delay: 2.1s; }
+    .s5 { animation-delay: 2.8s; }
+    .s6 { animation-delay: 3.3s; }
+  </style>
+
+  <!-- Base Layer: Grid Kontribusi Asli Kamu -->
+  <g class="grid-reveal">
+    <image xlink:href="https://raw.githubusercontent.com/Perdafos/Perdafos/output/github-contribution-grid-snake-dark.svg" width="100%" height="auto" />
+  </g>
+
+  <!-- Garis Tegak Berkilau (Scanner Beam) -->
+  <g class="scanner">
+    <!-- Glow efek garis -->
+    <rect x="-10" y="0" width="20" height="170" fill="url(#glowGradient)" opacity="0.6" />
+    <!-- Garis putih inti -->
+    <line x1="0" y1="0" x2="0" y2="170" stroke="#ffffff" stroke-width="3" filter="drop-shadow(0 0 6px #ffffff)" />
+    
+    <!-- Partikel Cahaya/Bintang Berkilau di sekitar garis scanner -->
+    <circle cx="-5" cy="30" r="2" class="star s1" />
+    <circle cx="8" cy="55" r="3" class="star s2" />
+    <circle cx="-12" cy="80" r="1.5" class="star s3" />
+    <circle cx="10" cy="110" r="2.5" class="star s4" />
+    <circle cx="-6" cy="135" r="2" class="star s5" />
+    <circle cx="7" cy="155" r="3" class="star s6" />
+  </g>
+
+  <!-- Gradient definisi untuk efek glow garis -->
+  <defs>
+    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+</svg>
