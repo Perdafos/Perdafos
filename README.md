@@ -45,9 +45,9 @@
 
 ### GitHub Overview
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/Perdafos/Perdafos/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%" />
-</p>
+</p> -->
 
 ### GitHub Overview
 
@@ -63,6 +63,6 @@
 [![YouTube](https://img.shields.io/badge/YouTube-000000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@perdafos)
 
 ---
-<p align="center">
+<!-- <p align="center">
   <img src="https://visitcount.itsvg.in/api?id=Perdafos&icon=0&color=0" />
-</p>
+</p> -->
