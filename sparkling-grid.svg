@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="auto" viewBox="0 0 820 170" style="background: #000000; border-radius: 8px;">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="auto" viewBox="0 0 820 130" style="background: #000000; border-radius: 8px;">
   <style>
-    /* Efek menyapu/menyingkap grid kontribusi dari kiri ke kanan */
+    /* Efek menyapu grid dari kiri ke kanan */
     @keyframes revealGrid {
       0% { clip-path: inset(0 100% 0 0); }
       45%, 100% { clip-path: inset(0 0 0 0); }
@@ -14,7 +14,7 @@
       50%, 100% { transform: translateX(820px); opacity: 0; }
     }
 
-    /* Animasi partikel bintang gemerlap cahaya putih */
+    /* Partikel cahaya bintang gemerlap */
     @keyframes sparkle {
       0%, 100% { opacity: 0; transform: scale(0.2); }
       50% { opacity: 1; transform: scale(1.6); }
@@ -42,33 +42,41 @@
     .s6 { animation-delay: 0.4s; }
   </style>
 
-  <!-- Base Layer: Grid Kontribusi Hijau Asli dari Branch Output -->
-  <g class="grid-container">
-    <image xlink:href="https://raw.githubusercontent.com/Perdafos/Perdafos/output/github-contribution-grid-snake-dark.svg" width="820" height="170" x="0" y="0" />
-  </g>
-
-  <!-- Garis Tegak Scanner Berkilau + Partikel Cahaya Bintang -->
-  <g class="scanner-line">
-    <!-- Glow aura garis putih -->
-    <rect x="-15" y="0" width="30" height="170" fill="url(#sparkleGlow)" />
-    
-    <!-- Garis tegak putih menyala -->
-    <line x1="0" y1="0" x2="0" y2="170" stroke="#ffffff" stroke-width="3.5" style="filter: drop-shadow(0 0 8px #ffffff);" />
-
-    <!-- Partikel-partikel Bintang Putih Berkilau di sekitar Garis -->
-    <circle cx="-6" cy="20" r="2.5" class="star s1" />
-    <circle cx="8" cy="45" r="3.5" class="star s2" />
-    <circle cx="-10" cy="75" r="2" class="star s3" />
-    <circle cx="12" cy="105" r="3" class="star s4" />
-    <circle cx="-5" cy="135" r="2.5" class="star s5" />
-    <circle cx="7" cy="155" r="3.5" class="star s6" />
-  </g>
-
   <defs>
+    <!-- Masking untuk menyembunyikan teks label bulan dan hari -->
+    <clipPath id="crop-grid-only">
+      <rect x="0" y="0" width="820" height="130" rx="4" />
+    </clipPath>
+
     <linearGradient id="sparkleGlow" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.8" />
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
     </linearGradient>
   </defs>
+
+  <!-- Latar Belakang Hitam Pekat -->
+  <rect width="820" height="130" fill="#000000" rx="8" />
+
+  <!-- Base Layer: Grid Kontribusi Tema Dark (Kotak Tanpa Kontribusi Berwarna Hitam/Gelap) -->
+  <g class="grid-container" clip-path="url(#crop-grid-only)">
+    <image xlink:href="https://raw.githubusercontent.com/Perdafos/Perdafos/output/github-contribution-grid-snake-dark.svg" width="820" height="170" x="0" y="-20" />
+  </g>
+
+  <!-- Garis Tegak Scanner Berkilau Putih + Partikel Cahaya Bintang -->
+  <g class="scanner-line">
+    <!-- Glow aura garis putih -->
+    <rect x="-15" y="0" width="30" height="130" fill="url(#sparkleGlow)" />
+    
+    <!-- Garis tegak putih menyala -->
+    <line x1="0" y1="0" x2="0" y2="130" stroke="#ffffff" stroke-width="3.5" style="filter: drop-shadow(0 0 8px #ffffff);" />
+
+    <!-- Partikel Bintang Putih Berkilau -->
+    <circle cx="-6" cy="15" r="2.5" class="star s1" />
+    <circle cx="8" cy="35" r="3.5" class="star s2" />
+    <circle cx="-10" cy="60" r="2" class="star s3" />
+    <circle cx="12" cy="85" r="3" class="star s4" />
+    <circle cx="-5" cy="105" r="2.5" class="star s5" />
+    <circle cx="7" cy="120" r="3.5" class="star s6" />
+  </g>
 </svg>
