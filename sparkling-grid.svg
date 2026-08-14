@@ -14,45 +14,6 @@
       0%, 100% { opacity: 0; transform: scale(0.2); }
       50% { opacity: 1; transform: scale(1.6); }
     }
-    @keyframes trailPulse {
-      0%, 100% { opacity: 0.55; }
-      50% { opacity: 1; }
-    }
-    @keyframes coreFlicker {
-      0%, 100% { stroke-width: 3.5; }
-      50% { stroke-width: 5.5; }
-    }
-    @keyframes ringExpand {
-      0% { r: 4; opacity: 0.9; stroke-width: 3; }
-      100% { r: 46; opacity: 0; stroke-width: 0.5; }
-    }
-    @keyframes spark {
-      0% { opacity: 0; transform: translateX(0) scale(1); }
-      15% { opacity: 1; }
-      100% { opacity: 0; transform: translateX(-70px) scale(0.3); }
-    }
-    @keyframes flashWash {
-      0%, 92%, 100% { opacity: 0; }
-      95% { opacity: 0.10; }
-    }
-    .ring { fill: none; stroke: #ffffff; animation: ringExpand 1s ease-out infinite; }
-    .ring-b { animation-delay: 0.5s; }
-    .spark-particle { fill: #ffffff; animation: spark 0.9s linear infinite; }
-    .flash-wash { animation: flashWash 5s ease-in-out infinite; }
-    @keyframes tracerFly {
-      0% { transform: translateX(0) scaleX(1); opacity: 0; }
-      12% { opacity: 1; }
-      100% { transform: translateX(-150px) scaleX(0.4); opacity: 0; }
-    }
-    .tracer { fill: #ffffff; opacity: 0; animation-name: tracerFly; animation-timing-function: ease-out; animation-iteration-count: infinite; }
-    .t1 { animation-duration: 0.55s; animation-delay: 0.02s; }
-    .t2 { animation-duration: 0.82s; animation-delay: 0.31s; }
-    .t3 { animation-duration: 0.64s; animation-delay: 0.14s; }
-    .t4 { animation-duration: 0.93s; animation-delay: 0.47s; }
-    .t5 { animation-duration: 0.58s; animation-delay: 0.22s; }
-    .t6 { animation-duration: 0.77s; animation-delay: 0.05s; }
-    .t7 { animation-duration: 0.69s; animation-delay: 0.38s; }
-    .t8 { animation-duration: 0.88s; animation-delay: 0.16s; }
     .reveal-rect { animation: revealWidth 5s ease-in-out infinite; }
     .scanner-line { animation: scanLine 5s ease-in-out infinite; }
     .star { fill: #ffffff; opacity: 0; animation: sparkle 1.2s infinite ease-in-out; }
@@ -62,8 +23,6 @@
     .s4 { animation-delay: 0.2s; }
     .s5 { animation-delay: 0.6s; }
     .s6 { animation-delay: 0.4s; }
-    .trail-glow { animation: trailPulse 1.4s ease-in-out infinite; }
-    .core-line { animation: coreFlicker 0.6s ease-in-out infinite; }
   </style>
   <defs>
     <clipPath id="reveal-clip">
@@ -74,38 +33,6 @@
       <stop offset="50%" stop-color="#ffffff" stop-opacity="0.8" />
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
     </linearGradient>
-    <!-- Comet-style trailing gradient: bright at the head (right), fading out to the left -->
-    <linearGradient id="trailGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
-      <stop offset="55%" stop-color="#ffffff" stop-opacity="0.10" />
-      <stop offset="80%" stop-color="#ffffff" stop-opacity="0.3" />
-      <stop offset="95%" stop-color="#ffffff" stop-opacity="0.65" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="1" />
-    </linearGradient>
-    <linearGradient id="trailGradientLong" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
-      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.04" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.35" />
-    </linearGradient>
-    <radialGradient id="headGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
-      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
-    </radialGradient>
-    <radialGradient id="washGradient" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
-    </radialGradient>
-    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" />
-    </filter>
-    <filter id="bigBlur" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="10" />
-    </filter>
-    <!-- Clips all trailing glow/particles so nothing bleeds ahead of the head (x=0) -->
-    <clipPath id="trailClip">
-      <rect x="-320" y="-30" width="322" height="190" />
-    </clipPath>
   </defs>
 
   <rect width="820" height="130" fill="#0d1117" rx="8" />
@@ -375,7 +302,7 @@
       <rect x="726" y="74" width="11" height="11" rx="2" fill="#0e4429"><title>2026-07-23: level 1</title></rect>
       <rect x="740" y="74" width="11" height="11" rx="2" fill="#0e4429"><title>2026-07-30: level 1</title></rect>
       <rect x="754" y="74" width="11" height="11" rx="2" fill="#0e4429"><title>2026-08-06: level 1</title></rect>
-      <rect x="768" y="74" width="11" height="11" rx="2" fill="#0e4429"><title>2026-08-13: level 1</title></rect>
+      <rect x="768" y="74" width="11" height="11" rx="2" fill="#006d32"><title>2026-08-13: level 2</title></rect>
       <rect x="40" y="88" width="11" height="11" rx="2" fill="#161b22"><title>2025-08-15: level 0</title></rect>
       <rect x="54" y="88" width="11" height="11" rx="2" fill="#161b22"><title>2025-08-22: level 0</title></rect>
       <rect x="68" y="88" width="11" height="11" rx="2" fill="#0e4429"><title>2025-08-29: level 1</title></rect>
@@ -428,6 +355,7 @@
       <rect x="726" y="88" width="11" height="11" rx="2" fill="#0e4429"><title>2026-07-24: level 1</title></rect>
       <rect x="740" y="88" width="11" height="11" rx="2" fill="#161b22"><title>2026-07-31: level 0</title></rect>
       <rect x="754" y="88" width="11" height="11" rx="2" fill="#161b22"><title>2026-08-07: level 0</title></rect>
+      <rect x="768" y="88" width="11" height="11" rx="2" fill="#161b22"><title>2026-08-14: level 0</title></rect>
       <rect x="40" y="102" width="11" height="11" rx="2" fill="#161b22"><title>2025-08-16: level 0</title></rect>
       <rect x="54" y="102" width="11" height="11" rx="2" fill="#161b22"><title>2025-08-23: level 0</title></rect>
       <rect x="68" y="102" width="11" height="11" rx="2" fill="#161b22"><title>2025-08-30: level 0</title></rect>
@@ -483,36 +411,8 @@
   </g>
 
   <g class="scanner-line">
-    <g clip-path="url(#trailClip)">
-      <!-- Long trailing comet tail behind the head -->
-      <rect x="-90" y="0" width="92" height="130" fill="url(#trailGradient)" class="trail-glow" />
-      <!-- Wide soft outer glow, pulled back so it only trails -->
-      <rect x="-30" y="0" width="30" height="130" fill="url(#sparkleGlow)" />
-      <!-- Blurred halo, centered slightly behind the head -->
-      <ellipse cx="-6" cy="65" rx="12" ry="75" fill="url(#headGlow)" filter="url(#softBlur)" />
-      <!-- Shockwave rings, only the trailing half survives the clip -->
-      <circle class="ring" cx="0" cy="30" r="4" />
-      <circle class="ring ring-b" cx="0" cy="95" r="4" />
-      <!-- Streaking spark particles peeling off the tail -->
-      <circle class="spark-particle" cx="0" cy="10" r="1.6" style="animation-delay:0s" />
-      <circle class="spark-particle" cx="0" cy="28" r="1.2" style="animation-delay:0.15s" />
-      <circle class="spark-particle" cx="0" cy="50" r="1.8" style="animation-delay:0.3s" />
-      <circle class="spark-particle" cx="0" cy="72" r="1.3" style="animation-delay:0.05s" />
-      <circle class="spark-particle" cx="0" cy="95" r="1.7" style="animation-delay:0.25s" />
-      <circle class="spark-particle" cx="0" cy="115" r="1.2" style="animation-delay:0.4s" />
-      <!-- Random white tracer streaks, each with its own size/speed/delay for a chaotic feel -->
-      <rect class="tracer t1" x="-2" y="8" width="26" height="1.6" rx="0.8" />
-      <rect class="tracer t2" x="-2" y="21" width="40" height="2" rx="1" />
-      <rect class="tracer t3" x="-2" y="37" width="18" height="1.4" rx="0.7" />
-      <rect class="tracer t4" x="-2" y="52" width="32" height="1.8" rx="0.9" />
-      <rect class="tracer t5" x="-2" y="66" width="46" height="2.2" rx="1.1" />
-      <rect class="tracer t6" x="-2" y="80" width="22" height="1.5" rx="0.8" />
-      <rect class="tracer t7" x="-2" y="97" width="36" height="2" rx="1" />
-      <rect class="tracer t8" x="-2" y="112" width="24" height="1.6" rx="0.8" />
-    </g>
-    <!-- Bright layered core line (drawn outside the clip so it stays crisp at the head) -->
-    <line x1="0" y1="0" x2="0" y2="130" stroke="#ffffff" stroke-width="8" opacity="0.35" filter="url(#softBlur)" />
-    <line x1="0" y1="0" x2="0" y2="130" stroke="#ffffff" stroke-width="3.5" class="core-line" style="filter: drop-shadow(0 0 6px #ffffff) drop-shadow(0 0 14px #ffffff) drop-shadow(0 0 26px #ffffff);" />
+    <rect x="-15" y="0" width="30" height="130" fill="url(#sparkleGlow)" />
+    <line x1="0" y1="0" x2="0" y2="130" stroke="#ffffff" stroke-width="3.5" style="filter: drop-shadow(0 0 8px #ffffff);" />
     <circle cx="-6" cy="15" r="2.5" class="star s1" />
     <circle cx="8" cy="35" r="3.5" class="star s2" />
     <circle cx="-10" cy="60" r="2" class="star s3" />
