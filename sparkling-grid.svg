@@ -57,7 +57,7 @@
       <rect x="264" y="18" width="11" height="11" rx="2" fill="#0e4429"><title>2026-02-22: level 1</title></rect>
       <rect x="278" y="18" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-01: level 1</title></rect>
       <rect x="292" y="18" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-08: level 1</title></rect>
-      <rect x="306" y="18" width="11" height="11" rx="2" fill="#26a641"><title>2026-03-15: level 3</title></rect>
+      <rect x="306" y="18" width="11" height="11" rx="2" fill="#39d353"><title>2026-03-15: level 4</title></rect>
       <rect x="320" y="18" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-22: level 1</title></rect>
       <rect x="334" y="18" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-29: level 1</title></rect>
       <rect x="348" y="18" width="11" height="11" rx="2" fill="#0e4429"><title>2026-04-05: level 1</title></rect>
@@ -90,8 +90,8 @@
       <rect x="726" y="18" width="11" height="11" rx="2" fill="#0e4429"><title>2026-10-11: level 1</title></rect>
       <rect x="740" y="18" width="11" height="11" rx="2" fill="#0e4429"><title>2026-10-18: level 1</title></rect>
       <rect x="754" y="18" width="11" height="11" rx="2" fill="#0e4429"><title>2026-10-25: level 1</title></rect>
-      <rect x="768" y="18" width="11" height="11" rx="2" fill="#161b22"><title>2026-11-01: level 0</title></rect>
-      <rect x="40" y="32" width="11" height="11" rx="2" fill="#26a641"><title>2025-11-03: level 3</title></rect>
+      <rect x="768" y="18" width="11" height="11" rx="2" fill="#0e4429"><title>2026-11-01: level 1</title></rect>
+      <rect x="40" y="32" width="11" height="11" rx="2" fill="#39d353"><title>2025-11-03: level 4</title></rect>
       <rect x="54" y="32" width="11" height="11" rx="2" fill="#161b22"><title>2025-11-10: level 0</title></rect>
       <rect x="68" y="32" width="11" height="11" rx="2" fill="#161b22"><title>2025-11-17: level 0</title></rect>
       <rect x="82" y="32" width="11" height="11" rx="2" fill="#161b22"><title>2025-11-24: level 0</title></rect>
@@ -110,7 +110,7 @@
       <rect x="264" y="32" width="11" height="11" rx="2" fill="#0e4429"><title>2026-02-23: level 1</title></rect>
       <rect x="278" y="32" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-02: level 1</title></rect>
       <rect x="292" y="32" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-09: level 1</title></rect>
-      <rect x="306" y="32" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-16: level 1</title></rect>
+      <rect x="306" y="32" width="11" height="11" rx="2" fill="#006d32"><title>2026-03-16: level 2</title></rect>
       <rect x="320" y="32" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-23: level 1</title></rect>
       <rect x="334" y="32" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-30: level 1</title></rect>
       <rect x="348" y="32" width="11" height="11" rx="2" fill="#0e4429"><title>2026-04-06: level 1</title></rect>
@@ -143,8 +143,9 @@
       <rect x="726" y="32" width="11" height="11" rx="2" fill="#0e4429"><title>2026-10-12: level 1</title></rect>
       <rect x="740" y="32" width="11" height="11" rx="2" fill="#0e4429"><title>2026-10-19: level 1</title></rect>
       <rect x="754" y="32" width="11" height="11" rx="2" fill="#0e4429"><title>2026-10-26: level 1</title></rect>
-      <rect x="40" y="46" width="11" height="11" rx="2" fill="#006d32"><title>2025-11-04: level 2</title></rect>
-      <rect x="54" y="46" width="11" height="11" rx="2" fill="#26a641"><title>2025-11-11: level 3</title></rect>
+      <rect x="768" y="32" width="11" height="11" rx="2" fill="#161b22"><title>2026-11-02: level 0</title></rect>
+      <rect x="40" y="46" width="11" height="11" rx="2" fill="#26a641"><title>2025-11-04: level 3</title></rect>
+      <rect x="54" y="46" width="11" height="11" rx="2" fill="#39d353"><title>2025-11-11: level 4</title></rect>
       <rect x="68" y="46" width="11" height="11" rx="2" fill="#0e4429"><title>2025-11-18: level 1</title></rect>
       <rect x="82" y="46" width="11" height="11" rx="2" fill="#0e4429"><title>2025-11-25: level 1</title></rect>
       <rect x="96" y="46" width="11" height="11" rx="2" fill="#0e4429"><title>2025-12-02: level 1</title></rect>
@@ -180,7 +181,7 @@
       <rect x="516" y="46" width="11" height="11" rx="2" fill="#161b22"><title>2026-06-30: level 0</title></rect>
       <rect x="530" y="46" width="11" height="11" rx="2" fill="#161b22"><title>2026-07-07: level 0</title></rect>
       <rect x="544" y="46" width="11" height="11" rx="2" fill="#0e4429"><title>2026-07-14: level 1</title></rect>
-      <rect x="558" y="46" width="11" height="11" rx="2" fill="#006d32"><title>2026-07-21: level 2</title></rect>
+      <rect x="558" y="46" width="11" height="11" rx="2" fill="#26a641"><title>2026-07-21: level 3</title></rect>
       <rect x="572" y="46" width="11" height="11" rx="2" fill="#0e4429"><title>2026-07-28: level 1</title></rect>
       <rect x="586" y="46" width="11" height="11" rx="2" fill="#161b22"><title>2026-08-04: level 0</title></rect>
       <rect x="600" y="46" width="11" height="11" rx="2" fill="#161b22"><title>2026-08-11: level 0</title></rect>
@@ -218,7 +219,7 @@
       <rect x="320" y="60" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-25: level 1</title></rect>
       <rect x="334" y="60" width="11" height="11" rx="2" fill="#0e4429"><title>2026-04-01: level 1</title></rect>
       <rect x="348" y="60" width="11" height="11" rx="2" fill="#0e4429"><title>2026-04-08: level 1</title></rect>
-      <rect x="362" y="60" width="11" height="11" rx="2" fill="#26a641"><title>2026-04-15: level 3</title></rect>
+      <rect x="362" y="60" width="11" height="11" rx="2" fill="#39d353"><title>2026-04-15: level 4</title></rect>
       <rect x="376" y="60" width="11" height="11" rx="2" fill="#0e4429"><title>2026-04-22: level 1</title></rect>
       <rect x="390" y="60" width="11" height="11" rx="2" fill="#0e4429"><title>2026-04-29: level 1</title></rect>
       <rect x="404" y="60" width="11" height="11" rx="2" fill="#0e4429"><title>2026-05-06: level 1</title></rect>
@@ -258,7 +259,7 @@
       <rect x="152" y="74" width="11" height="11" rx="2" fill="#161b22"><title>2026-01-01: level 0</title></rect>
       <rect x="166" y="74" width="11" height="11" rx="2" fill="#161b22"><title>2026-01-08: level 0</title></rect>
       <rect x="180" y="74" width="11" height="11" rx="2" fill="#161b22"><title>2026-01-15: level 0</title></rect>
-      <rect x="194" y="74" width="11" height="11" rx="2" fill="#0e4429"><title>2026-01-22: level 1</title></rect>
+      <rect x="194" y="74" width="11" height="11" rx="2" fill="#006d32"><title>2026-01-22: level 2</title></rect>
       <rect x="208" y="74" width="11" height="11" rx="2" fill="#161b22"><title>2026-01-29: level 0</title></rect>
       <rect x="222" y="74" width="11" height="11" rx="2" fill="#161b22"><title>2026-02-05: level 0</title></rect>
       <rect x="236" y="74" width="11" height="11" rx="2" fill="#161b22"><title>2026-02-12: level 0</title></rect>
@@ -318,7 +319,7 @@
       <rect x="264" y="88" width="11" height="11" rx="2" fill="#0e4429"><title>2026-02-27: level 1</title></rect>
       <rect x="278" y="88" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-06: level 1</title></rect>
       <rect x="292" y="88" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-13: level 1</title></rect>
-      <rect x="306" y="88" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-20: level 1</title></rect>
+      <rect x="306" y="88" width="11" height="11" rx="2" fill="#006d32"><title>2026-03-20: level 2</title></rect>
       <rect x="320" y="88" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-27: level 1</title></rect>
       <rect x="334" y="88" width="11" height="11" rx="2" fill="#0e4429"><title>2026-04-03: level 1</title></rect>
       <rect x="348" y="88" width="11" height="11" rx="2" fill="#0e4429"><title>2026-04-10: level 1</title></rect>
@@ -335,12 +336,12 @@
       <rect x="502" y="88" width="11" height="11" rx="2" fill="#161b22"><title>2026-06-26: level 0</title></rect>
       <rect x="516" y="88" width="11" height="11" rx="2" fill="#161b22"><title>2026-07-03: level 0</title></rect>
       <rect x="530" y="88" width="11" height="11" rx="2" fill="#161b22"><title>2026-07-10: level 0</title></rect>
-      <rect x="544" y="88" width="11" height="11" rx="2" fill="#006d32"><title>2026-07-17: level 2</title></rect>
+      <rect x="544" y="88" width="11" height="11" rx="2" fill="#26a641"><title>2026-07-17: level 3</title></rect>
       <rect x="558" y="88" width="11" height="11" rx="2" fill="#0e4429"><title>2026-07-24: level 1</title></rect>
       <rect x="572" y="88" width="11" height="11" rx="2" fill="#161b22"><title>2026-07-31: level 0</title></rect>
       <rect x="586" y="88" width="11" height="11" rx="2" fill="#161b22"><title>2026-08-07: level 0</title></rect>
       <rect x="600" y="88" width="11" height="11" rx="2" fill="#0e4429"><title>2026-08-14: level 1</title></rect>
-      <rect x="614" y="88" width="11" height="11" rx="2" fill="#006d32"><title>2026-08-21: level 2</title></rect>
+      <rect x="614" y="88" width="11" height="11" rx="2" fill="#26a641"><title>2026-08-21: level 3</title></rect>
       <rect x="628" y="88" width="11" height="11" rx="2" fill="#0e4429"><title>2026-08-28: level 1</title></rect>
       <rect x="642" y="88" width="11" height="11" rx="2" fill="#0e4429"><title>2026-09-04: level 1</title></rect>
       <rect x="656" y="88" width="11" height="11" rx="2" fill="#0e4429"><title>2026-09-11: level 1</title></rect>
@@ -369,7 +370,7 @@
       <rect x="250" y="102" width="11" height="11" rx="2" fill="#0e4429"><title>2026-02-21: level 1</title></rect>
       <rect x="264" y="102" width="11" height="11" rx="2" fill="#0e4429"><title>2026-02-28: level 1</title></rect>
       <rect x="278" y="102" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-07: level 1</title></rect>
-      <rect x="292" y="102" width="11" height="11" rx="2" fill="#26a641"><title>2026-03-14: level 3</title></rect>
+      <rect x="292" y="102" width="11" height="11" rx="2" fill="#39d353"><title>2026-03-14: level 4</title></rect>
       <rect x="306" y="102" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-21: level 1</title></rect>
       <rect x="320" y="102" width="11" height="11" rx="2" fill="#0e4429"><title>2026-03-28: level 1</title></rect>
       <rect x="334" y="102" width="11" height="11" rx="2" fill="#0e4429"><title>2026-04-04: level 1</title></rect>
